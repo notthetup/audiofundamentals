@@ -19,13 +19,15 @@ Audio Fundamentals
 cd portaudio
 CFLAGS=-w ./configure --disable-mac-universal --disable-shared && make
 ```
-
 ### Move libportaudio
 `cp ./lib/.libs/libportaudio.a ./lib`
-
 
 ### Copy Makefile to examples
 `cp ../examples/Makefile ./examples`
 
+### Make examples
+`cd examples; make`
 
+### Run examples
+`./paex_sine.o`
 
