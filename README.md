@@ -4,12 +4,10 @@ Audio Fundamentals
 ## Source code for hands on session for an audio fundamentals workshop ##
 
 
-
-
+## Portaudio - C
 
 ### Download PortAudio Nightly Snapshot
 `curl -O http://www.portaudio.com/archives/pa_snapshot.tgz`
-
 
 ### Unzip 
 `tar -xf pa_snapshot.tgz`
